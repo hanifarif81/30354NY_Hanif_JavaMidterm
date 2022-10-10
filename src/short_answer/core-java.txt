@@ -1,22 +1,34 @@
 ***ANSWER ALL OF THE QUESTIONS BELOW***
 
 What is a programming language?
-Answer:
+Answer: It is a specific language to communicate/interact with computer.
+    It is set of instructions written in any specific language to perform a specific task.
+    Example of some programming language are C, C++, Java, JavaScript, Python, HTML, SQL etc.
 
 What is a JDK composed of? Define each components?
-Answer:
+Answer: Java Development Kit(JDK) composed of JVM, JRE, Development Tools build in.
+    JVM:  Provide runtime environment in which Java byte code can be executed. JVM loads code, verifies code, executes code,
+       provide runtime environment. JVM does not exist physically.
+    JRE: is composed of Java Virtual Machine and set of libraries that JVM uses at runtime. Together it called JRE.
+        JRE physically exists in the computer.
+    Development Tools: Consist of Debugger, Compiler, JVaDoc etc.
+
 
 What is an IDE?
-Answer:
+Answer: IDE gives the users an environment for performing programming, along with development as well as testing and
+    debugging the application. Instead of doing different steps for making a fully working executable program,
+    Integrated Development Environment comes as a package with all tools required.
 
 What are some of the most popular Java IDEs available in the market?
-Answer:
+Answer: Eclipse, IntelliJ IDEA, NetBeans, BlueJ, JDeveloper, JCreator, DrJava etc.
 
 Explain the entire java life cycle.
 Answer:
 
 What is a class?
-Answer:
+Answer: Class is a blueprint or building block. Class can be called a logical template to create the objects that share
+    common properties and methods. Class consist of Access Modifiers, class keyword, Class name(1st letter capital),
+    Constructor, Body with in "{}".
 
 What is an object?
 Answer:

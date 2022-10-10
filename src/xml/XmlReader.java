@@ -75,6 +75,7 @@ public class XmlReader {
     // You must implement this method
     public char convertIntToChar(String score) {
         char grade = ' ';
+//        switch class
 
         return grade;
     }
