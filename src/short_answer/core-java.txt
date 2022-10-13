@@ -31,79 +31,103 @@ Answer: Class is a blueprint or building block. Class can be called a logical te
     Constructor, Body with in "{}".
 
 What is an object?
-Answer:
+Answer: It is a blueprint for an object. It includes all states and behaviors that will be shared by the objects of that class.
 
 What is the entry point of a Java project?
-Answer:
+Answer: The entry point is the Main method of the class.
 
 Why is the main() method static?
-Answer:
+Answer: It is because in order to run the application the compiler needs to call the main method. And without creating a
+    object of the class, to call the main method we leave it as static.
 
 Which class is the superclass of all classes?
-Answer:
+Answer: Object class.
 
 What is difference between path and classpath variables?
-Answer:
+Answer: The path variable contains the path to the java executables such as the compiler. The class path contains the path to the
+         user classes.
 
 What is the difference between an Interface and Abstract class?
-Answer:
+Answer: A class can implement multiple Interface and A class can inherit only one Abstract Class.
+    In an abstract interface keyword, is optional for declaring a method as an abstract. Abstract keyword is a must for declaring a
+    method as an abstract.
+    An interface can have only public abstract methods. An abstract class has protected and public abstract methods.
 
 Can you make an Object from an Interface and Abstract class? If yes or no, how would you do it?
 Answer:
 
 What is Access Modifier?
-Answer:
+Answer: It determines where a method or variable can be accessed from. It can be public, private, protected and default.
+    Public -- It can be accessed from within the class, outside the class, within the package and outside the package.
+    Private -- It can only be access from in side the class, it can't be accessed from outside the class or method.
+    Protected -- It can access from within and outside the class, and only with in the package. But if you create a child class then outside the package.
+    Default -- It can access from within the class and only within the package can't access from outside. If you don't specify and access level it will be default.
 
 What is OOP? Define each OOP concept.
-Answer:
+Answer: Object-Oriented Programing is a programing language based on the concepts of objects and classes. The core concept
+of the object-oriented approach is to brake complex problems into smaller objects.
+    Abstraction: A class can hide the implementation of its objects from the user and only provide the functionality.
+    Polymorphism: The idea that the same method can behave in different ways. It can be by method overloading or method overriding.
+    Inheritance: A class can inheritance the elements (states and behaviors) of another class.
+    Encapsulation: The idea of wrapping code in a single unit (data hiding). After the data is hid from the user, it can be accessed through getter and setter methods.
 
 What is Java Package and which package is imported by default?
-Answer:
+Answer: In java package is collection of classes. The core java library is imported by default, and it is included in the JDK.
 
 What is an API? List some API's that you have used so far.
-Answer:
+Answer: Application Programing Interface, is a connection between two servers. It provides communication between servers via requests and responses.
+    I have used java library API, login to Lab-Code, paying for Lab-Code using PayPal, Google Maps etc.
 
 Does java support multiple inheritance? Why or why not?
 Answer:
 
 What is method overloading? List all of the different ways to overload.
-Answer:
+Answer: Is in same method overloading the parameters, specify which method you are calling by the arguments you pass into. Three ways to overload method.
+    You can add more parameters in the method.
+    Changing the data type of the parameters.
+    Changing the order of the parameters.
 
 Explain exceptions in java and how to handle them.
-Answer:
+Answer: An exception is a run-time error. It occurs at runtime if there is an error. We can handle exceptions by putting the code into a try/catch code block
+         and wrapping the code inside that will give exception. We must specify the type of exception that the program will encounter in the catch.
 
 What is static keyword? When and how do we use it?
-Answer:
+Answer: meaning only one copy of the method or variable will be available and static method or variable can be access without creating an instance of the class.
+    Static can be used to refer to the common property of all abjects (which is not unique for each object).
 
 What is final keyword? When and how do we use it?
-Answer:
+Answer: Final makes a variable value constant (unchangeable).
+    It used for stop value change, stop method overloading, stop Inheritance.
 
 Explain the difference between final, finally and finalize?
-Answer:
+Answer: Final is a keyword to make a variable final.
+         Finally is a keyword used at the end of a try/catch block to execute another block code no matter what happens (even if the program runs into an exception). If it runs into
+         an exception, the codeblock inside finally will be executed before the program crashes.
+         Finalize is a method that belongs to the Object class and it is called before an object is sent to garbage collection or (destroyed).
 
 What is a constructor?
-Answer:
+Answer: is when an instance of a class is created. Every class has a default constructor except abstract class.
 
 Can we have multiple constructors in a class?
-Answer:
+Answer: No, It will always be the same constructor same as the class name. We can overload the constructor.
 
 If we don't have a constructor declared, what is called during the object creation?
-Answer:
+Answer: It will call the default constructor.
 
 What is "this" keyword in Java? When would we use it?
-Answer:
+Answer: The word "this" refers to the current object means when inside a method, it refers to the instance variables.
 
 What is "super" keyword in Java? What are some scenarios we would use it?
 Answer:
 
 What does JVM stand for?
-Answer:
+Answer: Java Virtual Machine.
 
 Is JVM platform independent?
-Answer:
+Answer: Yes it will run in any operating system.
 
 What version of Java are you using?
-Answer:
+Answer: I am using JDK 11.0.12
 
 What does JAR stand for?
 Answer:
