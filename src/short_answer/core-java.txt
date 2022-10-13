@@ -23,7 +23,9 @@ What are some of the most popular Java IDEs available in the market?
 Answer: Eclipse, IntelliJ IDEA, NetBeans, BlueJ, JDeveloper, JCreator, DrJava etc.
 
 Explain the entire java life cycle.
-Answer:
+Answer: Java code is developed in an IDE such as IntelliJ/Eclipse. That code is exported as a .java file and imported into the Java Compiler where it is converted into a .class file (Bytecode).
+             The Java Virtual Machine (JVM) Class Loader reads the machine code (.class file) before it is verified by the Bytecode Verifier and finally the read and executed by
+             the interpreter.
 
 What is a class?
 Answer: Class is a blueprint or building block. Class can be called a logical template to create the objects that share
@@ -130,22 +132,28 @@ What version of Java are you using?
 Answer: I am using JDK 11.0.12
 
 What does JAR stand for?
-Answer:
+Answer: It stands for Java Archives.
 
 What is the difference between JDK and JVM?
-Answer:
+Answer: JDK contains JVM because JVM is virtual platform which execute java .class in any operating system. On the other hand,
+    JDK contains (compiler, JRE, java library, etc).
 
 What is the difference between JVM and JRE?
-Answer:
+Answer: JRE contains JVM which provides the virtual environment for bytecode .class to run and other hand JRE contains
+    (JVM + java librarys).
 
 Explain the difference between compile-time and run-time?
-Answer:
+Answer: Compile time means at time of compiling code (before the compiler compiles in to source code). Run time means while the programing is running.
+    Compile-time error means the program won't compile or run (IDE will show error).
+    Run-time error means an exception being run in to while the program is running.
 
 What is heap?
-Answer:
+Answer: Heap memory is where Java stores references to the object.
 
 How does Java manage its memory?
-Answer:
+Answer: Java divide memory into stack and heap. Java stores the primitive data types and references (to objects) into the stack memory.
+    These references will be then pointing to where the actual object in stored which is heap memory.
+    After that when Java understands that an object will not be used or the reference is pointing elsewhere, it moves it to garbage collection.
 
 What is the difference between String, StringBuffer and StringBuilder?
 Answer:
