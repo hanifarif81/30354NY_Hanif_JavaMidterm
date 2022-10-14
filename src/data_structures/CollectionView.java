@@ -20,6 +20,8 @@ public class CollectionView {
         map.put(4, "Boston");
         map.put(1, "NYC");
         map.put(3, "Denver");
+        //Printing the value of the HashMap
+        System.out.println(map.values());
 
     }
 

@@ -1,5 +1,7 @@
 package data_structures;
 
+import java.util.ArrayList;
+
 public class UseArrayList {
 
     /** INSTRUCTIONS
@@ -12,6 +14,7 @@ public class UseArrayList {
 
     public static void main(String[] args) {
 
+//        ArrayList<Integer>
     }
 
 }
