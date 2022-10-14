@@ -13,9 +13,11 @@ public class Palindrome {
 
     public static void main(String[] args) {
         Palindrome obj = new Palindrome();
-        String word = "RACECAR";
+        String word1 = "RACECAR";
+        String word2 = "MADAM";
 
-        System.out.println(obj.palindrome(word));
+        System.out.println(obj.palindrome(word1));
+        System.out.println(obj.palindrome(word2));
     }
 
     String palindrome(String strin) {
