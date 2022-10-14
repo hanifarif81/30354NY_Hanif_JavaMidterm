@@ -1,5 +1,7 @@
 package string_problems;
 
+import java.util.Arrays;
+
 public class Anagram {
 
     /** INSTRUCTIONS
@@ -13,6 +15,33 @@ public class Anagram {
      *             "FART" & "RAFT"
      */
 
-    // Implement Here
 
+    public static void main(String[] args) {
+        String word1 = "CAT";
+        String word2 = "ACT";
+
+        char[] ch1 = word1.toCharArray();// converting string to characters array
+        char[] ch2 = word2.toCharArray();// converting string to characters array
+
+        Arrays.sort(ch1); // sorting characters array
+        Arrays.sort(ch2); // sorting characters array
+
+        boolean isAnagram = true;
+
+        if(word1.length() == word2.length()){
+            for(int i =0; i< word1.length(); i++){
+                if(ch1[i] != ch2[i]){
+                    isAnagram = false;
+                    break;
+                }
+            }
+            if(isAnagram){
+                System.out.println("Anagram");
+            }else {
+                System.out.println(" Not Anagram");
+            }
+        }else {
+            System.out.println("Not anagram");
+        }
+    }
 }

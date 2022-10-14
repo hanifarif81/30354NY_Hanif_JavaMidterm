@@ -12,7 +12,18 @@ public class Factorial {
 
     public static void main(String[] args) {
 
-
+        System.out.println(recursionFactorial(5));
+        System.out.println(recursionFactorial(10));
     }
+    //calculating Factorial using Recursion method
+    public static int recursionFactorial(int number){
+        int x = 0;
+        if(number <= 1){
+            return number;
+        }
+    x = x + (number * recursionFactorial(number-1));
+        return x;
+    }
+
 
 }

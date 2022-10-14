@@ -10,9 +10,22 @@ public class Palindrome {
      * Create a method to check if any given String is a palindrome or not.
      */
 
+
     public static void main(String[] args) {
+        Palindrome obj = new Palindrome();
+        String word = "RACECAR";
 
+        System.out.println(obj.palindrome(word));
     }
-    // Implement here
 
+    String palindrome(String strin) {
+
+        StringBuilder reversed = new StringBuilder();
+
+    for(int i = strin.length() - 1; i >= 0; i--){
+        reversed.append(strin.charAt(i));
+    }
+
+        return reversed.toString();
+    }
 }
