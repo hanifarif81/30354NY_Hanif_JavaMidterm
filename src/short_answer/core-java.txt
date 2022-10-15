@@ -178,16 +178,23 @@ Answer: Iterator is an object which can loop through collections like Arraylist 
     There are four method in interface hasNext(), next(), remove(), forEachRemaining().
 
 Which one will take more memory: an int or Integer? Why?
-Answer:
+Answer: Integer will take more memory because it is an object it will take 16 bytes. And int is a primitive data type,
+    int takes 4 bytes.
 
 Why are Strings considered to be immutable in Java?
-Answer:
+Answer: Strings is unmodifiable or unchangeable because String is used to store different attributes.
+    So if we alter String value it will create new object.
 
 What is constructor chaining in Java?
-Answer:
+Answer: Constructor chaining is calling one constructor from another constructor with respect to current object.
+    Two ways can constructor chaining be done.
+    Within the same class: It can be done using this() keyword for constructors in the same class.
+    From Parent class: By using the super() keyword to call constructor from the parent class constructor
+    chaining occurs through inheritance.
 
 The difference between Serial and Parallel Garbage Collector?
-Answer:
+Answer: parallel collector has multiple threads that are used to speed up garbage collection.
+    The serial collector uses a single thread to perform all garbage collection work.
 
 What does JIT stands for?
 Answer:
