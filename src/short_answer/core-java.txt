@@ -120,7 +120,10 @@ What is "this" keyword in Java? When would we use it?
 Answer: The word "this" refers to the current object means when inside a method, it refers to the instance variables.
 
 What is "super" keyword in Java? What are some scenarios we would use it?
-Answer:
+Answer: The super keyword in java is a reference variable that is used to refer parent class objects. It is used to call
+    superclass method and to access the superclass constructor, or when there is no constructor present in superclass. The
+    most common use of the super keyword is to eliminate the confusion between superclass and subclass that have methods
+    with the same name.
 
 What does JVM stand for?
 Answer: Java Virtual Machine.
@@ -155,23 +158,24 @@ Answer: Java divide memory into stack and heap. Java stores the primitive data t
     These references will be then pointing to where the actual object in stored which is heap memory.
     After that when Java understands that an object will not be used or the reference is pointing elsewhere, it moves it to garbage collection.
 
-What is the difference between String, StringBuffer and StringBuilder?
-Answer:
-
 What is Singleton class?
-Answer:
+Answer: In OOP a singleton class can have only one object (an instance of the class) created from the class.
 
 What is Serialization and Deserialization?
-Answer:
+Answer: Serialization transforms the state of an object into a byte stream that can be saved locally or sent over the network.
+    Deserialization transform the byte stream into a recreation of the actual object in the java memory.
 
 Explain the difference between While and Do..While loops?
-Answer:
+Answer: While loop will execute the loop after checking the condition of the code as long it remain true.
+    Do. .While loop will execute the code once and then check the condition if it is true, keep on executing as long it remain true.
 
 What is Enum?
-Answer:
+Answer: Enumeration is special class that represents a group of constance variables. An enum cannot be used to create
+    objects, and it cannot extend other classes, but it can implement interfaces.
 
 What is Iterator?
-Answer:
+Answer: Iterator is an object which can loop through collections like Arraylist and HasSet one by one.
+    There are four method in interface hasNext(), next(), remove(), forEachRemaining().
 
 Which one will take more memory: an int or Integer? Why?
 Answer:
