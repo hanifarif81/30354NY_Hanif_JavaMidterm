@@ -80,3 +80,43 @@ Answer:
 
 Outline different sorting algorithms and their time complexities:
 
+Algorithm Name: Selection Sort
+        Time Complexity:
+        ● Best: Ω(n^2)
+        ● Average: θ(n^2)
+        ● Worst: O(n^2)
+        Algorithm Name: Bubble Sort
+        Time Complexity:
+        ● Best:Ω(n)
+        ● Average:θ(n^2)
+        ● Worst: O(n^2)
+        Algorithm Name: Insertion Sort
+        Time Complexity:
+        ● Best:Ω(n)
+        ● Average: θ(n^2)
+        ● Worst: O(n^2)
+        Algorithm Name: Heap Sort
+        Time Complexity:
+        ● Best: Ω(n log(n))
+        ● Average: θ(n log(n))
+        ● Worst: O(n log(n))
+        Algorithm Name: Quick Sort
+        Time Complexity:
+        ● Best: Ω(n log(n))
+        ● Average: θ(n log(n))
+        ● Worst: O(n^2)
+        Algorithm Name: Merge Sort
+        Time Complexity:
+        ● Best: Ω(n log(n))
+        ● Average: θ(n log(n))
+        ● Worst: O(n log(n))
+        Algorithm Name: Bucket Sort
+        Time Complexity:
+        ● Best: Ω(n+k)
+        ● Average: θ(n+k)
+        ● Worst: O(n^2)
+        Algorithm Name: Radix Sort
+        Time Complexity:
+        ● Best: Ω(nk)
+        ● Average: θ(nk)
+        ● Worst: O(nk)
