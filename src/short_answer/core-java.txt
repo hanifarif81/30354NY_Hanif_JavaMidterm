@@ -55,7 +55,9 @@ What is the difference between an Interface and Abstract class?
     An interface can have only public abstract methods. An abstract class has protected and public abstract methods.
 
 Can you make an Object from an Interface and Abstract class? If yes or no, how would you do it?
- Answer:
+ Answer: An abstract class requires the abstract keyword. Interface is always abstract.
+         Interface contains only abstract methods. Abstract class can contain both abstract and concrete methods.
+         No methods of the interface can be implemented.
 
 What is Access Modifier?
  Answer: It determines where a method or variable can be accessed from. It can be public, private, protected and default.
@@ -80,7 +82,8 @@ What is an API? List some API's that you have used so far.
     I have used java library API, login to Lab-Code, paying for Lab-Code using PayPal, Google Maps etc.
 
 Does java support multiple inheritance? Why or why not?
- Answer:
+ Answer: Java does not support multiple inheritance. In multiple inheritance, properties of more than one parent class are inherited.
+    The reason is, when calling an element, Java gets confused on what class you're calling the element from.
 
 What is method overloading? List all of the different ways to overload.
  Answer: Is in same method overloading the parameters, specify which method you are calling by the arguments you pass into. Three ways to overload method.
@@ -205,34 +208,44 @@ Answer: Garbage collection is a type of memory management executed by the JVM.
     program's source code is compiled into an executable program.
 
 Can you guarantee the garbage collection process?
-Answer:
+Answer: No. The Garbage Collection process is done automatically by the JVM. so there is no way to guarantee it.
 
 What is the difference between stack and heap in Java?
-Answer:
+Answer: Stack and Heap memory is that the stack is used to store the order of method execution and local variables
+    while the heap memory stores the object and uses dynamic memory allocation and deallocation.
+    A separate stack is created for each object whereas heap is shared among all the threads.
+    Stack memory follows Last in First Out order and Heap space does not follow any order because it is a dynamic memory allocation.
 
 What is reflection in Java and why is it useful?
-Answer:
+Answer: Reflection is an Application Programming Interface (API) which is used to examine or modify the behavior of
+    methods, classes, interfaces at runtime.
 
 What is multithreading in Java?
-Answer:
+Answer: It is the process of running two or more threads at the same time.
 
 What is synchronization in Java?
-Answer:
+Answer: Is it the process of making sure multiple threads don't access the shared resources at the same time. It synchronizes the order in which these
+        threads access the shared resources during run-time to avoid issues.
 
 What is a Framework?
-Answer:
+Answer: A framework is the body or platform of pre-written codes used by developers to develop Java applications or web applications.
+    It is a collection of predefined classes and functions. Framework can be used by calling its methods, inheritance and listeners.
+    Framework also helps dictate the structure of an application.
 
 What are the testing Frameworks available in Java?
-Answer:
+Answer: Some testing frameworks that are available in java are JUnit, Selenium, TestNG, JBehave, among others.
 
 What are jUnit and testNG?
-Answer:
+Answer: JUnit is a framework for unit testing.
+        TestNG is a framework for test automation.
 
 What are the dependencies for this project?
-Answer:
+Answer: gson-2.6.2, jackson-annotations-2.11.3, java-json.jar, mongo-java-driver, mysql-connector-java, testng.
 
 What is dependency injection in Java?
-Answer:
+Answer: Dependency injection is a design pattern which removes the dependency from the programming code .When a java class
+    uses instances of another class, it creates dependency on that class. Using dependency injection, this dependency can be removed.
 
 Explain what static binding and dynamic binding is?
-Answer:
+Answer: Object forms can be resolved at compile time and run time. If linking between method call and method implementation
+    is resolved at compile time then it is called static binding. If it is resolved at run time, then it is dynamic binding.
