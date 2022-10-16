@@ -22,28 +22,34 @@ Answer: An array is a basic data structured provided by java. ArrayList is part 
     In array the size of an array is fixed after initialization, arrayList Dynamic sized arrays, and can add or delete by implement List interface.
 
 What is a LinkedList?
-Answer:
+Answer: It is a data structure that implements the List interface. The elements are stored in nodes and nodes will be pointing to the next node.
+    When adding a new element to a particular index, the previous index will point to the added element and the added element will point to the next index.
+    LinkedList is a part of the Collection framework present in the java.util package.
 
 How is an Array different from LinkedList?
-Answer:
+Answer: An Array is a basic data structure built into java, LinkedList is a part of the collection framework.
+    In array, elements are stored in a particular index. In linkList elements are stored in nodes and nodes will be pointing to the next node.
+    Array's size is fixed after initialization, and LinkedList supports the add or delete of more elements.
 
 What is a Queue?
-Answer:
+Answer: Queue is java collection interface, it is an ordered list of objects that supports the principle of manipulating
+    elements processed First In First Out order.
 
 What is a Stack (referring to data structures)?
-Answer:
+Answer: It is an ordered list of objects that supports the principle of manipulating elements starting from the end of the list Last In, First Out.
 
-What is FIFO and LIFO?
-Answer:
+What are FIFO and LIFO?
+Answer: FIFO is First In, First Out  and LIFO is Last, In, First Out
 
 Explain Big O Notation?
-Answer:
+Answer: Big O Notation describes the time or space required for the execution in a software program.
+    Big O is also used to classify algorithms according to their run time or space requirements as the input size grows.
 
 What is the best case to search an element from an array?
-Answer:
+Answer: The best case to search an element from an array is 0(1).
 
 What is the worst case to search an element from an array?
-Answer:
+Answer: The worst case can be O(n/2).
 
 Describe what a tree data structure is?
 Answer:
