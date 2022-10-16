@@ -18,9 +18,9 @@ public class UseMap {
     public static void main(String[] args) throws Exception {
 
         HashMap<Object, Object> map = new HashMap<>();
-        map.put(8454, "lamia");
-        map.put(4567, "azar");
-        map.put(7898, "rahim");
+        map.put(5454, "Mr. L");
+        map.put(4567, "Ms. K");
+        map.put(9475, "Mr. B");
 
         // Retrieving "Keys" & "Values" using an Iterator
         Iterator<Object> mapIter = map.keySet().iterator();
@@ -34,7 +34,6 @@ public class UseMap {
         String tableName = "`test_hash_map`";
         SharedStepsDatabase sql = new SharedStepsDatabase();
 
-        // IMPLEMENT HERE
 
     }
 }
