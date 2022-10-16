@@ -8,6 +8,8 @@ public class UnitTestingMath {
 
     public static void main(String[] args) {
 
+        Factorial factorialObj = new Factorial();
+
 
     }
 
