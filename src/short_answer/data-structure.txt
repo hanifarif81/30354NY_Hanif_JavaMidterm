@@ -69,19 +69,25 @@ Answer: HashMaps store values in keys. So a key refers to a specific value. They
         because it is non-synchronized.
 
 What is ArrayIndexOutOfBoundsException in java? When does it occur?
-Answer:
+Answer: It is an exception. It occurs when, at run-time, the program tries to access an element of a data structure in an index that does not exist (out of bound).
 
 What are the different ways of copying an array into another array?
-Answer:
+Answer: Arrays.copyOf() Assign the elements as values to variables and then copying them to the other array.
+    System.arraycopy(): Copy each element to the other array (must be of same length).
+    Object.clone(): Inherited from Object class in an array.
 
 What is DFS and BFS?
-Answer:
+Answer: Depth First Search and Breadth First Search are techniques used to find the shortest path in a graph. DFS implements a Stack data structure other hand
+        BFS implements a Queue.
 
 What is Recursion?
-Answer:
+Answer: Is the process in which a method calls itself continuously. It calls itself with a recursive call and will stop when a stop condition is satisfied.
 
 What are linear and non-linear data Structures?
-Answer:
+Answer: In linear data structure, elements are arranged in linear order where each element is attached to its previous and next adjacent elements.
+    Array, stack, queue, and linked list are some examples of linear data structure.
+
+    In non-linear data structure, data elements are attached in a hierarchical manner. Tree and graphs are some examples of linear data structure.
 
 Outline different sorting algorithms and their time complexities:
 
