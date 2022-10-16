@@ -14,7 +14,30 @@ public class UseArrayList {
 
     public static void main(String[] args) {
 
-//        ArrayList<Integer>
+        ArrayList<String> passenger = new ArrayList<String>();
+
+        //add elements in ArrayList
+        passenger.add("Jhon");
+        passenger.add("Tim");
+        passenger.add("Sam");
+        passenger.add("Tommy");
+        passenger.add("Edward");
+        System.out.println("Result Before removing :"  + passenger);
+
+
+        //remove method
+        passenger.remove( "Tim");
+        System.out.println("after removing  element Tim  "+passenger);
+
+        //get method
+        System.out.println("get method: "+ passenger.get(2));
+
+        //for each loop
+        System.out.println("for each loop");
+        for(String name:passenger){
+            System.out.println(name);
+
+        }
     }
 
 }
