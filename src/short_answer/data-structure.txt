@@ -52,16 +52,21 @@ What is the worst case to search an element from an array?
 Answer: The worst case can be O(n/2).
 
 Describe what a tree data structure is?
-Answer:
+Answer: A Tree is a non-linear data structure (data elements are attached in hierarchically) unlike arrays, linked lists, stacks and queues which are linear data structures.
+    A tree can be empty with no nodes or a structure consisting of one node called the root and zero or one or more subtrees.
 
 Describe what a graph data structure is?
-Answer:
+Answer: A graph is a non-linear data structure that consists of nodes and edges. The edges connect several nodes to create a graph-like structure.
 
 What is the difference between the HashTable and HashMap?
-Answer:
+Answer: HashMap is non-synchronized. It is not thread-safe and can't be shared between many threads without proper synchronization code.
+    HashTable is synchronized and is thread-safe and can be shared with many threads.
+    HashTables does not allow null keys or values.
+    HashMap allows one null key and any number of null values.
 
 How do HashMaps work in Java? How do they store values, and when are they useful?
-Answer:
+Answer: HashMaps store values in keys. So a key refers to a specific value. They are useful when handling a single-thread applications as it performs better,
+        because it is non-synchronized.
 
 What is ArrayIndexOutOfBoundsException in java? When does it occur?
 Answer:
