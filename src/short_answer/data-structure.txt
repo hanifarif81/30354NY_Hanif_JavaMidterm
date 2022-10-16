@@ -1,19 +1,25 @@
 ***ANSWER ALL OF THE QUESTIONS BELOW***
 
 Why do we need data structure?
-Answer:
+Answer: Data structure enable us to handle the data in an efficient way. It plays a vital role in enhancing
+    the performance of a software or a program as the main function of the software is to store and
+    retrieve the user's data as fast as possible.
 
 What are the various operations that can be performed on different data structures?
-Answer:
+Answer: we can add elements, remove elements, sort elements, fetch elements, compare elements, from the data structures etc.
 
 When would we use data structures in the real world?
-Answer:
+Answer: To store password, so we can just implement it without remembering it.
+    To store a set of fixed keywords which are referenced very frequently.
+    To store the customer order information in a drive-in burger place. So on and so forth.
 
 What is an Array?
-Answer:
+Answer: An array is a data structure that contains a group of elements with similar data type.
 
 What is the difference between Array and ArrayList?
-Answer:
+Answer: An array is a basic data structured provided by java. ArrayList is part of the collection framework, and it implements the List interface.
+    Array members are accessed using [], while ArrayList has a set of methods to access elements and modify them.
+    In array the size of an array is fixed after initialization, arrayList Dynamic sized arrays, and can add or delete by implement List interface.
 
 What is a LinkedList?
 Answer:
